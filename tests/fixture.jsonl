@@ -1,0 +1,4 @@
+{"type":"message","id":"m1","timestamp":1795732800000,"message":{"role":"assistant","provider":"anthropic","model":"claude-opus-4-8","usage":{"input":4000,"output":1200,"cacheRead":8000,"cacheWrite":500}}}
+{"type":"message","id":"m2","timestamp":1795732900000,"message":{"role":"assistant","provider":"anthropic","model":"claude-opus-4-8","usage":{"input":1500,"output":800,"cacheRead":8500,"cacheWrite":100}}}
+{"type":"message","id":"m3","timestamp":"2026-05-20T10:00:00Z","message":{"role":"user","provider":"anthropic","model":"claude-opus-4-8","usage":{}}}
+{"type":"message","id":"m4","timestamp":1795732950000,"message":{"role":"assistant","provider":"openai","model":"gpt-5.6-sol","usage":{"input":2000,"output":900,"totalTokens":2900}}}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ess.pi-usage",
+  "name": "Pi Usage",
+  "version": "0.1.0",
+  "author": "ess",
+  "description": "Pi agent token usage in the bar: today, last 7 days and all-time per model with input/output/cache split.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Pi Usage",
+    "description": "Standalone Pi token meter: today, week and model breakdown from local Pi transcripts.",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaults": {
+      "refreshIntervalSec": 300
+    },
+    "schema": [
+      {
+        "key": "refreshIntervalSec",
+        "type": "integer",
+        "label": "Refresh interval (seconds)",
+        "min": 30,
+        "max": 3600,
+        "step": 30,
+        "defaultValue": 300
+      }
+    ]
+  }
+}
