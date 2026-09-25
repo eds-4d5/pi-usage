@@ -1,6 +1,9 @@
-# Pi Usage — Omarchy bar widget
+# Pi Usage — Omarchy bar widget / Widget de barra do Omarchy
 
-Standalone Omarchy shell plugin (`ess.pi-usage`): só o símbolo `π` na barra
+Standalone Omarchy shell plugin (`ess.pi-usage`): only the `π` symbol on the bar
+with a token budget timeline, like the OpenCode widget.
+
+Plugin de barra do Omarchy (`ess.pi-usage`): só o símbolo `π` na barra
 com uma linha do tempo do orçamento em tokens, como o widget do OpenCode.
 
 - **Verde cheio** = tem tokens para usar (modelo free = ilimitado)
@@ -61,6 +64,25 @@ omarchy restart shell
 
 Teclas no painel: `r` refresh, `Esc` fecha. Botão direito no chip força refresh.
 `omarchy-shell ess.pi-usage refresh` via IPC.
+
+---
+
+## Instalação / Installation
+
+```bash
+omarchy plugin validate ~/Documents/piuser
+cp -r ~/Documents/piuser ~/.config/omarchy/plugins/ess.pi-usage
+omarchy plugin enable ess.pi-usage
+omarchy restart shell
+```
+
+## Remoção / Uninstall
+
+```bash
+omarchy plugin disable ess.pi-usage
+rm -rf ~/.config/omarchy/plugins/ess.pi-usage
+omarchy restart shell
+```
 
 ---
 
