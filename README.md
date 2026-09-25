@@ -61,3 +61,9 @@ omarchy restart shell
 
 Teclas no painel: `r` refresh, `Esc` fecha. Botão direito no chip força refresh.
 `omarchy-shell ess.pi-usage refresh` via IPC.
+
+---
+
+☕ **Gostou?** Me apoie no [Ko-fi](https://ko-fi.com/eds4d5)
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/eds4d5)
